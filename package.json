@@ -1,12 +1,24 @@
 {
   "name": "@som/archiver-cli",
   "version": "1.0.0",
-  "description": "very easy to use",
+  "description": "very easy to use to zip and tar",
   "main": "lib/index.js",
   "bin": {
-
+    "som-zip": "./bin/zip.js",
+    "node-zip": "./bin/zip.js",
+    "som-tar": "./bin/tar.js",
+    "node-tar": "./bin/tar.js"
   },
+  "files": [
+    "lib",
+    "bin",
+    "README.md",
+    "LICENSE"
+  ],
   "scripts": {
+    "dev": "node scripts/dev.js",
+    "zip": "node-zip node_modules",
+    "tar": "node-tar node_modules",
     "test": "jest",
     "publish:npm": "yarn publish --registry https://registry.npmjs.org/"
   },
@@ -35,8 +47,9 @@
     "jest": "^26.6.3"
   },
   "dependencies": {
-    "commander": "^6.2.1",
     "archiver": "^5.1.0",
-    "cli-progress": "^3.8.2"
+    "cli-progress": "^3.8.2",
+    "commander": "^6.2.1",
+    "klaw": "^3.0.0"
   }
 }

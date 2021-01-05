@@ -104,3 +104,8 @@ dist
 .tern-port
 
 yarn.lock
+
+*.tar
+*.tar.gz
+*.zip
+*.json
