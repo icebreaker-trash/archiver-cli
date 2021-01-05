@@ -1,4 +1,4 @@
-# @som/archiver-cli
+# simple-archiver-cli
 
 very easy to use
 
@@ -6,13 +6,13 @@ very easy to use
 
 ```sh
 # global cli
-npm i -g serverless-config-generator
-yarn global add serverless-config-generator
+npm i -g simple-archiver-cli
+yarn global add simple-archiver-cli
 
 //or
 
-npm i -D serverless-config-generator
-yarn add -D serverless-config-generator
+npm i -D simple-archiver-cli
+yarn add -D simple-archiver-cli
 ```
 
 ## How to use
@@ -36,7 +36,7 @@ const {
   util,
   factory,
   cli
-} = require('@som/archiver-cli')
+} = require('simple-archiver-cli')
 
 //write code below
 ...

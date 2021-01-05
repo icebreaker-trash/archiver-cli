@@ -1,5 +1,5 @@
 {
-  "name": "@som/archiver-cli",
+  "name": "simple-archiver-cli",
   "version": "1.0.0",
   "description": "very easy to use to zip and tar",
   "main": "lib/index.js",
@@ -26,7 +26,13 @@
     "type": "git",
     "url": "git+https://github.com/sonofmagic/archiver-cli.git"
   },
-  "keywords": [],
+  "keywords": [
+    "cli",
+    "tar",
+    "zip",
+    "archiver",
+    "compress"
+  ],
   "author": "sonofmagic <1324318532@qq.com>",
   "license": "MIT",
   "bugs": {
