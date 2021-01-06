@@ -45,7 +45,7 @@ const {
 
 ## Why i write this package?
 
-Because i am to poor to buy me a `Macbook Pro`
+Because i am too poor to buy me a `Macbook Pro`
 
 So i use this package in my Windows PC
 
