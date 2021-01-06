@@ -16,7 +16,7 @@
     "LICENSE"
   ],
   "scripts": {
-    "dev": "node scripts/dev.js",
+    "dev": "node --trace-warnings scripts/dev.js",
     "zip": "node-zip node_modules",
     "tar": "node-tar node_modules",
     "test": "jest",

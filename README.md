@@ -22,9 +22,14 @@ you could run
 
 ```sh
 # get zip
-node-zip <path>
+node-zip <path> <dest>
 # get tar.gz
-node-tar <path>
+node-tar <path> <dest>
+# for example 
+node-tar node_modules
+
+node-zip node_modules .serverless/layer/node_modules.zip
+
 ```
 
 or
