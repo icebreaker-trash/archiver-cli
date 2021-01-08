@@ -1,6 +1,6 @@
 {
   "name": "simple-archiver-cli",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "very easy to use to zip and tar",
   "main": "lib/index.js",
   "bin": {
